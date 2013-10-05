@@ -22,6 +22,8 @@ groups:
     - privileges.info
     - privileges.list
     - privileges.version
+    - - craftbook.mech.xsptore.use
+    - craftbook.mech.*
     - commandbook.who
     - commandbook.motd
     - commandbook.rules

@@ -6,33 +6,103 @@
 # from the previous group.
 groups:
   default:
+    rank: 1
+    permissions:
+    - group.default
+    - - privileges.build
+    - - healthbar.*
+  member:
     rank: 2
     permissions:
-    - group.user
-    - privileges.users
+    - - worldedit.*
+    - - healthbar.*
+    - group.member
+    - privileges.promote
+    - privileges.build
+    - privileges.info
+    - privileges.list
+    - privileges.version
+    - commandbook.who
+    - commandbook.motd
+    - commandbook.rules
+    - commandbook.time
+    - commandbook.biome
+    - commandbook.spawn
+    - commandbook.return
+    - commandbook.call
+    - commadnbook.home
+    - commandbook.home.set
+    - commandbook.say
+    - commandbook.say.me
+    - commandbook.msg
+    - commandbook.afk
+    - commandbook.mute
+    - commandbook.whereami
+    - commandbook.whois
+    data:
+      promotion: mod
+      demotion: default
   mod:
     rank: 3
     permissions:
     - group.mod
-    - privileges.mods
+    - privileges.demote
+    - privileges.check
+    - commandbook.slap
+    - commandbook.slap.other
+    - commandbook.rocket
+    - commandbook.rocket.other
+    - commandbook.barrage
+    - commandbook.barrage.other
+    - commandbook.teleport.other
+    - commandbook.home.other
+    - commandbook.broadcast
+    - commandbook.whois
+    - commandbook.kick
+    - commanbook.kick.exempt
+    - commandbook.isbanned
+    - commandbook.bans.ban
+    - commandbook.bans.unban
+    - anticheat.mod
     inheritance:
-    - user
+    - member
     data:
+      demotion: member
       promotion: admin
   admin:
     rank: 4
     permissions:
     - group.admin
-    - privileges.admins
+    - privileges.save
+    - privileges.reload
+    - privileges.backup
+    - privileges.load
+    - privileges.debug
+    - privileges.restore
+    - anticheat.admin
+    - healthbar.*
+    - commandbook.firebarrage
+    - commandbook.firebarrage.other
+    - commandbook.shock
+    - commandbook.shock.other
     inheritance:
     - mod
     data:
       demotion: mod
+  terraformer:
+    rank: 5
+    inheritance:
+    - admin
+    permissions:
+    - group.terraformer
+    - worldedit.*
   owner:
     rank: 100
     permissions:
+    - - worldedit.*
     - group.owner
-    - privileges.self.edit
+    - commandbook.thor
+    - commandbook.freeze
     - privileges.*
     inheritance:
     - admin

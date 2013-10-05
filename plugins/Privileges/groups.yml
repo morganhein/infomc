@@ -1,0 +1,38 @@
+# Group ranks determine the order they are promoted in.
+# Lowest rank is 1, highest rank is 2,147,483,647.
+# Visit https://github.com/krinsdeath/Privileges/wiki for help with configuration
+# World nodes override global nodes for that group
+# Inherited groups are calculated first. Each group in the tree overrides any nodes
+# from the previous group.
+groups:
+  default:
+    rank: 2
+    permissions:
+    - group.user
+    - privileges.users
+  mod:
+    rank: 3
+    permissions:
+    - group.mod
+    - privileges.mods
+    inheritance:
+    - user
+    data:
+      promotion: admin
+  admin:
+    rank: 4
+    permissions:
+    - group.admin
+    - privileges.admins
+    inheritance:
+    - mod
+    data:
+      demotion: mod
+  owner:
+    rank: 100
+    permissions:
+    - group.owner
+    - privileges.self.edit
+    - privileges.*
+    inheritance:
+    - admin

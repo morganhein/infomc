@@ -1,0 +1,11 @@
+permissions:
+  backend: file
+  backends:
+    file:
+      file: permissions.yml
+  superperms:
+    disable-unmatched: true
+    enable: true
+    debug: false
+    compatibility-mode: false
+    enable-wildcards: true

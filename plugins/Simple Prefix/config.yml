@@ -1,0 +1,15 @@
+Template:
+  format: '<[time] [world] [prefix][name][suffix]> '
+  time: '[h:mm aa]'
+  multiPrefix: false
+Worlds:
+  world:
+    nickname: '&e[World]&f'
+Group:
+  example:
+    prefix: '&a[Example]&f'
+    suffix: ''
+User:
+  Flabaliki:
+    prefix: '&c[Who?]&f'
+    suffix: ''

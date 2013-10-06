@@ -3,9 +3,9 @@ com/sk89q/commandbook/session/UserSession:
     messaging: {last-recipient: !!null '', last-recipient-time: 0}
     idle-status:
     confirm-command:
-    last-update: 1380779664471
+    last-update: 1381101829870
 com/sk89q/commandbook/locations/TeleportSession:
     teleport:
         bringable: {}
         requests: {}
-    last-update: 1380779664467
+    last-update: 1381102476965

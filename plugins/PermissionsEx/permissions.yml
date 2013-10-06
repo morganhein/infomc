@@ -1,0 +1,96 @@
+
+groups:
+  owner:
+    permissions:
+    - permissions.*
+    options:
+      rank: '1'
+    inheritance:
+    - admin
+    permissions:
+    - commandbook.thor
+    - commandbook.freeze
+  admin:
+    options:
+      rank: '700'
+    inheritance:
+    - mod
+    permissions:
+    - anticheat.admin
+    - healthbar.*
+    - commandbook.firebarrage
+    - commandbook.firebarrage.other
+    - commandbook.shock
+    - commandbook.shock.other
+    - permissions.manage.*
+    - lockette.admin.reload
+    - simpleprefix.*
+  mod:
+    options:
+      rank: '800'
+    inheritance:
+    - member
+    permissions:
+    - commandbook.slap
+    - commandbook.slap.other
+    - commandbook.rocket
+    - commandbook.rocket.other
+    - commandbook.barrage
+    - commandbook.barrage.other
+    - commandbook.teleport.other
+    - commandbook.home.other
+    - commandbook.broadcast
+    - commandbook.whois
+    - commandbook.kick
+    - commanbook.kick.exempt
+    - commandbook.isbanned
+    - commandbook.bans.ban
+    - commandbook.bans.unban
+    - anticheat.mod
+    - lockette.admin.snoop  
+  member:
+    options:
+      rank: '900'
+    inheritance:
+    - default
+    permissions:
+    - modifyworld.*
+    - -craftbook.mech.xsptore.use
+    - craftbook.mech.*
+    - commandbook.who
+    - commandbook.motd
+    - commandbook.rules
+    - commandbook.time
+    - commandbook.biome
+    - commandbook.spawn
+    - commandbook.return
+    - commandbook.call
+    - commandbook.home
+    - commandbook.home.set
+    - commandbook.say
+    - commandbook.say.me
+    - commandbook.msg
+    - commandbook.afk
+    - commandbook.mute
+    - commandbook.whereami
+    - commandbook.whois
+    - permissions.user.promote
+    - lockette.user.create.*
+    - simpleprefix.command.editOwn
+    - simpleprefix.colors
+  default:
+    default: true
+    options:
+      rank: '1000'
+    permissions:
+    - -worldedit.*
+    - -anticheat.*
+    - -craftbook.mech.*
+    - modifyworld.chat
+    - commandbook.call
+
+users:
+  counterpunk:
+    group:
+    - default
+

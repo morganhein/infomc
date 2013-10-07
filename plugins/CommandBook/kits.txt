@@ -12,8 +12,5 @@
 # in seconds. Players have to wait that amount of time before they can
 # use that particular kit.
 #
-[starter=20]
-woodpick
-woodaxe
-woodshovel
-wood,64
+[protect=6880000]
+commandblock

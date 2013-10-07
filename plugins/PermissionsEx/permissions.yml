@@ -1,4 +1,3 @@
-
 groups:
   admin:
     options:
@@ -48,7 +47,7 @@ groups:
     - commandbook.bans.exempt
     - commandbook.broadcast
     - commandbook.warp.*
-    - lockette.admin.snoop  
+    - lockette.admin.snoop
     - preciousstones.alert.*
   member:
     options:
@@ -95,19 +94,26 @@ groups:
     - preciousstones.benefit.change-owner
     - preciousstones.benefit.hide
     - preciousstones.benefit.counts
+    - commandbook.kit.protect
+    build: true
   default:
     default: true
     options:
       rank: '1000'
     permissions:
+    - modifyworld.chat
+    - commandbook.call
+    - -commandbook.*
+    - -modifyworld.*
+    - -preciousstones.*
     - -worldedit.*
     - -anticheat.*
     - -craftbook.mech.*
-    - modifyworld.chat
-    - commandbook.call
-
+    build: false
 users:
   counterpunk:
     group:
-    - default
-
+    - admin
+  onelilfizzle:
+    group:
+    - admin

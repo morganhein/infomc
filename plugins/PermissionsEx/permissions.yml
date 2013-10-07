@@ -85,8 +85,16 @@ groups:
     - lockette.user.create.*
     - simpleprefix.command.editOwn
     - simpleprefix.colors
-    - preciousstones.benefit.*
+    - preciousstones.benefit.create.*
     - preciousstones.whitelist.*
+    - preciousstones.benefit.disable
+    - preciousstones.benefit.setname
+    - preciousstones.benefit.visualize
+    - preciousstones.benefit.who
+    - preciousstones.benefit.locations
+    - preciousstones.benefit.change-owner
+    - preciousstones.benefit.hide
+    - preciousstones.benefit.counts
   default:
     default: true
     options:

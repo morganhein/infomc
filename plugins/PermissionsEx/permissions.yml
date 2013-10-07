@@ -21,6 +21,7 @@ groups:
     - permissions.*
     - lockette.admin.reload
     - simpleprefix.*
+    - preciousstones.admin.*
   mod:
     options:
       rank: '800'
@@ -48,6 +49,7 @@ groups:
     - commandbook.broadcast
     - commandbook.warp.*
     - lockette.admin.snoop  
+    - preciousstones.alert.*
   member:
     options:
       rank: '900'
@@ -83,6 +85,8 @@ groups:
     - lockette.user.create.*
     - simpleprefix.command.editOwn
     - simpleprefix.colors
+    - preciousstones.benefit.*
+    - preciousstones.whitelist.*
   default:
     default: true
     options:

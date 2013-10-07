@@ -5,12 +5,12 @@ enable-messages-error: true
 enable-messages-help: true
 explosion-protection-all: true
 enable-chest-rotation: false
-enable-permissions: false
+enable-permissions: true
 enable-protection-doors: true
 enable-protection-trapdoors: true
-allow-admin-snoop: false
+allow-admin-snoop: true
 allow-admin-bypass: true
-allow-admin-break: true
+allow-admin-break: false
 enable-quick-protect: true
 enable-color-tags: true
 default-door-timer: 0

@@ -112,10 +112,9 @@ repairable-items:
 - 317
 - 359
 force-field-blocks:
-- title: City Protection
-  block: 57
-  radius: 20
-  custom-height: 15
+- title: Homestead Protection
+  block: 137
+  radius: 75
   prevent-fire: true
   prevent-place: true
   prevent-destroy: true
@@ -128,22 +127,6 @@ force-field-blocks:
   protect-crops: true
   protect-inventories: true
   prevent-place-blacklist:
-  - 153
-  ?welcome-message: true
-  ?farewell-message: true
-  ?prevent-portal-enter: true
-  ?prevent-portal-destination: true
-  ?prevent-portal-create: true
-  ?prevent-vehicle-enter: true
-  ?prevent-vehicle-exit: true
-  ?prevent-teleport: true
-  command-blacklisting: true
-  can-change-owner: true
-  enable-on-src: true
-  mixing-group: 1
-  hidable: true
-  cuboid: true
-  mask-on-disabled: 80
 - title: City Plot
   block: 153
   radius: 20

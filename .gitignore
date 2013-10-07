@@ -6,3 +6,7 @@ banned-ips.txt
 white-list.txt
 temp/
 dev/
+*.lck
+*.bak
+PreciousStones.db
+plugins/CommandBook/sessions/*.*

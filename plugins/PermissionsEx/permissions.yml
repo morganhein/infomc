@@ -21,6 +21,7 @@ groups:
     - lockette.admin.reload
     - simpleprefix.*
     - preciousstones.admin.*
+    - dynmap.*
   mod:
     options:
       rank: '800'
@@ -68,6 +69,7 @@ groups:
     - commandbook.call
     - commandbook.home
     - commandbook.home.set
+    - commandbook.home.teleport   
     - commandbook.say
     - commandbook.say.me
     - commandbook.msg

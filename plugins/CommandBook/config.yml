@@ -30,12 +30,13 @@ component-jar-dirs:
 # or aliases (automatically added to the list by CommandBook) can be used as component names.
 components:
     disabled:
-    - freeze
-    - help
-    - warps
     - midi
     - flight
+    - god
     enabled:
+    - help
+    - freeze
+    - warps
     - bans
     - homes
     - messaging
@@ -53,7 +54,7 @@ components:
     - info
     - world
     - player
-    - god
+
 
 # Configurations for CommandBook's built-in components are stored here.
 # Custom component configurations are stored as individual files in the the config/ folder

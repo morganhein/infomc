@@ -1,5 +1,5 @@
 Template:
-  format: '<[time] [world] [prefix][name][suffix]> '
+  format: '<[prefix] [name]> '
   time: '[h:mm aa]'
   multiPrefix: false
 Worlds:
@@ -13,3 +13,5 @@ User:
   Flabaliki:
     prefix: '&c[Who?]&f'
     suffix: ''
+  counterpunk:
+    prefix: '&c[morgan]&f'

@@ -10,3 +10,4 @@ dev/
 *.bak
 PreciousStones.db
 plugins/CommandBook/sessions/*.*
+world.pending

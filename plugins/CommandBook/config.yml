@@ -55,7 +55,6 @@ components:
     - world
     - player
 
-
 # Configurations for CommandBook's built-in components are stored here.
 # Custom component configurations are stored as individual files in the the config/ folder
 component:
@@ -114,3 +113,6 @@ component:
         auto-enable: false
     flight:
         auto-enable: false
+    help:
+        help-file: help.yml
+        command-help: true

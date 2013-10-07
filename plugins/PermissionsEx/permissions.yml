@@ -22,6 +22,7 @@ groups:
     - simpleprefix.*
     - preciousstones.admin.*
     - dynmap.*
+    - commandbook.kit.protect
   mod:
     options:
       rank: '800'
@@ -56,6 +57,7 @@ groups:
     inheritance:
     - default
     permissions:
+    - bukkit.command.help
     - modifyworld.*
     - -craftbook.mech.xsptore.use
     - craftbook.mech.*
@@ -69,7 +71,7 @@ groups:
     - commandbook.call
     - commandbook.home
     - commandbook.home.set
-    - commandbook.home.teleport   
+    - commandbook.home.teleport
     - commandbook.say
     - commandbook.say.me
     - commandbook.msg
@@ -77,8 +79,7 @@ groups:
     - commandbook.mute
     - commandbook.whereami
     - commandbook.whois
-    - commandbook.kit
-    - commandbook.kit.list
+    - commandbook.kit.*
     - commandbook.clear
     - commandbook.warp.list
     - commandbook.warp.teleport
@@ -96,7 +97,6 @@ groups:
     - preciousstones.benefit.change-owner
     - preciousstones.benefit.hide
     - preciousstones.benefit.counts
-    - commandbook.kit.protect
     build: true
   default:
     default: true

@@ -1,18 +1,8 @@
 
 groups:
-  owner:
-    permissions:
-    - permissions.*
-    options:
-      rank: '1'
-    inheritance:
-    - admin
-    permissions:
-    - commandbook.thor
-    - commandbook.freeze
   admin:
     options:
-      rank: '700'
+      rank: '1'
     inheritance:
     - mod
     permissions:
@@ -22,6 +12,12 @@ groups:
     - commandbook.firebarrage.other
     - commandbook.shock
     - commandbook.shock.other
+    - commandbook.thor
+    - commandbook.freeze
+    - commandbook.ban.exempt
+    - commandbook.unban
+    - commandbook.kick.exempt
+    - commandbook.kick.exempt.override
     - permissions.manage.*
     - lockette.admin.reload
     - simpleprefix.*
@@ -42,11 +38,15 @@ groups:
     - commandbook.broadcast
     - commandbook.whois
     - commandbook.kick
-    - commanbook.kick.exempt
+    - commandbook.kick.exempt
     - commandbook.isbanned
     - commandbook.bans.ban
+    - commandbook.bans.save
+    - commandbook.bans.load
     - commandbook.bans.unban
-    - anticheat.mod
+    - commandbook.bans.exempt
+    - commandbook.broadcast
+    - commandbook.warp.*
     - lockette.admin.snoop  
   member:
     options:
@@ -74,6 +74,11 @@ groups:
     - commandbook.mute
     - commandbook.whereami
     - commandbook.whois
+    - commandbook.kit
+    - commandbook.kit.list
+    - commandbook.clear
+    - commandbook.warp.list
+    - commandbook.warp.teleport
     - permissions.user.promote
     - lockette.user.create.*
     - simpleprefix.command.editOwn

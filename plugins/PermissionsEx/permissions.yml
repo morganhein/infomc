@@ -5,6 +5,9 @@ groups:
     inheritance:
     - mod
     permissions:
+    - commandbook.time.*
+    - commandbook.time
+    - commandbook.give.*
     - bukkit.command.reload
     - commandbook.weather
     - commandbook.give
@@ -62,6 +65,8 @@ groups:
     inheritance:
     - default
     permissions:
+    - commandbook.time.check
+    - simpleprefix.command.colors.*
     - bukkit.command.help
     - modifyworld.*
     - -craftbook.mech.xsptore.use
@@ -125,3 +130,9 @@ users:
   onelilfizzle:
     group:
     - admin
+  Enzo_0t:
+    group:
+    - member
+  QuantumZeno:
+    group:
+    - mod

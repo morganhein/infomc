@@ -104,6 +104,7 @@ component:
         motd: |-
             Hello, `Y%name%`w.
             The time now is `Y%time%`w and you're in the info world!
+            Sorry about the revert. Some morons deleted the minecraft folder.
         rules: |-
             - Don't be an asshat.
             - Have fun!

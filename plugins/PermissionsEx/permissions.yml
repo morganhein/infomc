@@ -5,6 +5,10 @@ groups:
     inheritance:
     - mod
     permissions:
+    - commandbook.weather
+    - commandbook.give
+    - commandbook.reload
+    - commandbook.god
     - anticheat.admin
     - healthbar.*
     - commandbook.firebarrage

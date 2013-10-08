@@ -1,0 +1,5 @@
+topics:
+    help: |-
+        This is a component to provide help for servers
+        `r/help -c <commandname>`w gives help for a command
+        `r/help <topic>`w gives help for a topic from a list specified by the server admin.

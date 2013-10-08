@@ -1,4 +1,3 @@
-world*/
 server.properties
 server.log
 banned-players.txt
@@ -11,3 +10,5 @@ dev/
 PreciousStones.db
 plugins/CommandBook/sessions/*.*
 world.pending
+plugins/dynmap/web/*
+world*/

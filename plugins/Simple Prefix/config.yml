@@ -1,5 +1,5 @@
 Template:
-  format: '<[prefix] [name]> '
+  format: '<[prefix] [name]&f> '
   time: '[h:mm aa]'
   multiPrefix: false
 Worlds:

@@ -1,0 +1,48 @@
+tiles:
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 27,23,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 29,21,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 29,22,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 5,38,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 1,36,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 1,37,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 3,36,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 31,20,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 2,36,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 2,37,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 3,37,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 28,21,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 3,38,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 27,21,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 27,22,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 28,19,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 28,22,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 28,18,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 4,37,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 5,35,iso_S_90_lowres,0
+invalid:
+    t:
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10000000:0/10000000:0/80000000:0/38000000:0/38000000:0/8000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    flat:
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/20:0/e:0/1e:0/28:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    ct:
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10000000:0/10000000:0/80000000:0/38000000:0/38000000:0/8000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0

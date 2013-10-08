@@ -5,6 +5,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - multiverse.*
     - worldedit.superpickaxe
     - commandbook.time.*
     - commandbook.time
@@ -66,6 +67,14 @@ groups:
     inheritance:
     - default
     permissions:
+    - multiverse.core.tp.self
+    - multiverse.help
+    - multiverse.access.*
+    - multiverse.teleport.self.world
+    - multiverse.teleport.self.futuristichg
+    - multiverse.core.list.who
+    - multiverse.core.list.worlds
+    - multiverse.core.info
     - commandbook.time.check
     - simpleprefix.command.colors.*
     - bukkit.command.help

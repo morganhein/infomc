@@ -1,0 +1,4 @@
+#
+#Sun Jul 21 16:07:34 CEST 2013
+LinkedWorlds=
+ServerName=Teweran

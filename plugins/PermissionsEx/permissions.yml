@@ -86,7 +86,7 @@ groups:
     - permissions.user.promote
     - lockette.user.create.*
     - simpleprefix.command.editOwn
-    - simpleprefix.colors
+    - simpleprefix.command.colors
     - preciousstones.benefit.create.*
     - preciousstones.whitelist.*
     - preciousstones.benefit.disable

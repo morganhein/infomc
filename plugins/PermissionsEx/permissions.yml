@@ -5,6 +5,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - worldedit.superpickaxe
     - commandbook.time.*
     - commandbook.time
     - commandbook.give.*
@@ -134,5 +135,14 @@ users:
     group:
     - member
   QuantumZeno:
+    group:
+    - mod
+  LawnGnome5012:
+    group:
+    - member
+  daprat:
+    group:
+    - member
+  Erekt:
     group:
     - mod

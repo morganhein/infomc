@@ -47,8 +47,8 @@ repairable-items:
 - 290
 force-field-blocks:
 - title: Homestead Protection
-  block: 5883
-  radius: 100
+  block: 137
+  radius: 60
   custom-height: 81
   prevent-fire: true
   prevent-place: true
@@ -133,7 +133,7 @@ settings:
   prevent-destroy-everywhere:
   - creative_world
   show-default-welcome-farewell-messages: true
-  sneak-to-place-field: true
+  sneak-to-place-field: false
   sneak-to-place-normal-block: true
   disable-ground-info: false
   global-field-limit: 1000000

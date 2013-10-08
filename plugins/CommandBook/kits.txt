@@ -13,4 +13,5 @@
 # use that particular kit.
 #
 [protect=6880000]
-chiseled stone brick
+137
+compass

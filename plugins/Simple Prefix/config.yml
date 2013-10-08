@@ -14,4 +14,4 @@ User:
     prefix: '&c[Who?]&f'
     suffix: ''
   counterpunk:
-    prefix: '&c[morgan]&f'
+    prefix: test

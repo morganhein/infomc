@@ -5,6 +5,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - bukkit.command.reload
     - commandbook.weather
     - commandbook.give
     - commandbook.reload
@@ -109,6 +110,7 @@ groups:
     permissions:
     - modifyworld.chat
     - commandbook.call
+    - commandbook.help
     - -commandbook.*
     - -modifyworld.*
     - -preciousstones.*

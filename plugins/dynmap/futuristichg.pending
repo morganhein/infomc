@@ -1,48 +1,55 @@
 tiles:
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 27,23,iso_SE_60_lowres,0
+    data: 35,12,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 29,21,iso_SE_60_lowres,0
+    data: 30,24,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 29,22,iso_SE_60_lowres,0
+    data: 31,11,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 5,38,iso_S_90_lowres,0
+    data: 31,12,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 1,36,iso_S_90_lowres,0
+    data: 31,23,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 1,37,iso_S_90_lowres,0
+    data: 4,36,iso_S_90_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 3,36,iso_S_90_lowres,0
+    data: 32,20,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 31,20,iso_SE_60_lowres,0
+    data: 32,21,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 2,36,iso_S_90_lowres,0
+    data: 34,12,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 2,37,iso_S_90_lowres,0
+    data: 28,25,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 3,37,iso_S_90_lowres,0
+    data: 29,10,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 28,21,iso_SE_60_lowres,0
+    data: 33,11,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 3,38,iso_S_90_lowres,0
+    data: 33,12,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 27,21,iso_SE_60_lowres,0
+    data: 34,13,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 27,22,iso_SE_60_lowres,0
+    data: 35,13,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 24,22,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
     data: 28,19,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 28,22,iso_SE_60_lowres,0
+    data: 28,26,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 28,18,iso_SE_60_lowres,0
+    data: 29,11,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 4,37,iso_S_90_lowres,0
+    data: 29,15,iso_SE_60_lowres,0
 -   class: org.dynmap.hdmap.HDMapTile
-    data: 5,35,iso_S_90_lowres,0
+    data: 29,23,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 30,10,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 31,20,iso_SE_60_lowres,0
 invalid:
     t:
-    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10000000:0/10000000:0/80000000:0/38000000:0/38000000:0/8000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/60000000:2/a0000000:e/80000000:c/0:0/0:0/20000000:0/0:0/0:0/0:0/10000000:1/80000000:1/0:0/1000000:0/e0000000:0/40000000:0/10000000:0/10000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
     flat:
-    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/20:0/e:0/1e:0/28:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - ffffffff/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:80000000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
     ct:
-    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10000000:0/10000000:0/80000000:0/38000000:0/38000000:0/8000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/60000000:2/a0000000:e/80000000:c/0:0/0:0/20000000:0/0:0/0:0/0:0/10000000:1/80000000:1/0:0/1000000:0/e0000000:0/40000000:0/10000000:0/10000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0

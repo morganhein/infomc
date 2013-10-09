@@ -26,7 +26,7 @@ check-for-updates: true
 #additional players. Auto start vote means that
 #x percent of players need to vote with /sg vote
 #for the game to begin
-auto-start-players: 20
+auto-start-players: 5
 auto-start-time: 20
 auto-start-vote: 75
 

@@ -1,1 +1,50 @@
 version: 0
+sg-system:
+  lobby:
+    spawn:
+      world: lobby
+      x: 524
+      y: 5
+      z: -508
+    sign:
+      set: true
+    signno: 3
+    signs:
+      '1':
+        id: 1
+        world: lobby
+        x1: 529
+        y1: 8
+        z1: -506
+        x2: 529
+        y2: 6
+        z2: -510
+      '2':
+        id: 1
+        world: lobby
+        x1: 529
+        y1: 8
+        z1: -506
+        x2: 529
+        y2: 6
+        z2: -510
+      '3':
+        id: 1
+        world: lobby
+        x1: 528
+        y1: 8
+        z1: -506
+        x2: 528
+        y2: 6
+        z2: -510
+  arenano: 1
+  arenas:
+    '1':
+      world: futuristichg
+      x1: 349
+      y1: 255
+      z1: -940
+      x2: -151
+      y2: 0
+      z2: -1440
+      enabled: true

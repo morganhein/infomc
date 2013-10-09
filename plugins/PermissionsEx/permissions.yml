@@ -1,4 +1,8 @@
 groups:
+  builder:
+    permissions:
+    - bukkit.command.gamemode
+    - worldedit.*
   admin:
     options:
       rank: '1'
@@ -39,6 +43,10 @@ groups:
     inheritance:
     - member
     permissions:
+    - sg.arena.forcestart
+    - sg.arena.disable
+    - sg.arena.enable
+    - sg.arena.nocmdblock
     - commandbook.slap
     - commandbook.slap.other
     - commandbook.rocket
@@ -52,7 +60,7 @@ groups:
     - commandbook.kick
     - commandbook.kick.exempt
     - commandbook.isbanned
-    - commandbook.bans.ban
+    - commandbook.bans.bans
     - commandbook.bans.save
     - commandbook.bans.load
     - commandbook.bans.unban
@@ -67,6 +75,10 @@ groups:
     inheritance:
     - default
     permissions:
+    - sg.arena.join.*
+    - sg.arena.vote
+    - sg.arena.spectate
+    - sg.lobby.join
     - multiverse.core.tp.self
     - multiverse.help
     - multiverse.access.*

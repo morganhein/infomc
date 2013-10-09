@@ -11,32 +11,32 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 3
+listeners:
+- port: default
+  host: default
+  netty: true
 settings:
+  netty-threads: 3
   log-filters:
   - ^(.*)(/login)(.*)$
-  prevent-proxies: false
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./startserver.sh
-  netty-threads: 3
-commands:
-  spam-exclusions:
-  - /skill
-  log: true
-  tab-complete: true
+  prevent-proxies: false
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client!
   outdated-server: Outdated server!
-listeners:
-- port: default
-  host: default
-  netty: true
+commands:
+  tab-complete: true
+  spam-exclusions:
+  - /skill
+  log: true
 world-settings:
   default:
     verbose: true

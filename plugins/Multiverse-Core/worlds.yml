@@ -14,24 +14,24 @@ worlds:
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
       monsters:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
       currency: '-1'
-    hunger: 'true'
+    hunger: 'false'
     autoHeal: 'true'
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: CREATIVE
-    keepSpawnInMemory: 'true'
+    keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
       yaw: 0.0
@@ -46,7 +46,7 @@ worlds:
     seed: '6203595686250492739'
     generator: 'null'
     playerLimit: '-1'
-    allowFlight: 'true'
+    allowFlight: 'false'
   world_nether:
     ==: MVWorld
     hidden: 'false'
@@ -97,7 +97,7 @@ worlds:
     allowFlight: 'true'
   futuristichg:
     ==: MVWorld
-    hidden: 'false'
+    hidden: 'true'
     alias: futuristichg
     color: WHITE
     style: NORMAL
@@ -115,7 +115,7 @@ worlds:
         exceptions: []
       monsters:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
     entryfee:
@@ -127,7 +127,7 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
+    keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
       yaw: 0.0
